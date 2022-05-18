@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 74.843 s <<< FAILURE! - in TestSuite
+login(tests.LoginTest)  Time elapsed: 1.641 s  <<< FAILURE!
+java.lang.AssertionError: expected [aidah1803@gmail.com] but found [komora.aida@gmail.com]
+	at tests.LoginTest.login(LoginTest.java:45)
+
