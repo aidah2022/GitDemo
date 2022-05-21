@@ -45,6 +45,7 @@ public class LoginTest extends Base {
 		Assert.assertEquals(email, "aidah1803@gmail.com");
 		log.clickLoginBtn();
 		logger.info("Login successful with: " + email);
+		System.out.println("Change to LoginTest by Y");
 	}
 	
 	@DataProvider

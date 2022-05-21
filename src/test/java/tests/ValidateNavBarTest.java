@@ -38,6 +38,7 @@ public class ValidateNavBarTest extends Base {
 		l.dismissPopup().click();
 		Assert.assertTrue(l.getNavBar().isDisplayed());
 		logger.info("Nav bar displayed");
+		System.out.println("Change to NavBar by Y");
 	}
 	
 }
