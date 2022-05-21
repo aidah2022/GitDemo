@@ -46,6 +46,7 @@ public class LoginTest extends Base {
 		log.clickLoginBtn();
 		logger.info("Login successful with: " + email);
 		System.out.println("Change to LoginTest by Y");
+		System.out.println("Change to LoginTest by X");
 	}
 	
 	@DataProvider

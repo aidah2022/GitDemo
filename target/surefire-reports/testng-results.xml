@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-18T10:48:46 CEST" name="Suite" finished-at="2022-05-18T10:49:57 CEST" duration-ms="71034">
+  <suite started-at="2022-05-20T22:03:06 CEST" name="Suite" finished-at="2022-05-20T22:04:25 CEST" duration-ms="78680">
     <groups>
     </groups>
-    <test started-at="2022-05-18T10:48:46 CEST" name="Test" finished-at="2022-05-18T10:49:57 CEST" duration-ms="71034">
+    <test started-at="2022-05-20T22:03:06 CEST" name="Test" finished-at="2022-05-20T22:04:25 CEST" duration-ms="78680">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:48:46 CEST" name="initialize" finished-at="2022-05-18T10:49:35 CEST" duration-ms="48695" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:03:06 CEST" name="initialize" finished-at="2022-05-20T22:03:51 CEST" duration-ms="45042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:49:35 CEST" name="login" data-provider="loginData" finished-at="2022-05-18T10:49:37 CEST" duration-ms="1588" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:03:51 CEST" name="login" data-provider="loginData" finished-at="2022-05-20T22:03:54 CEST" duration-ms="2451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:49:37 CEST" name="closeBrowsers" finished-at="2022-05-18T10:49:37 CEST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:03:54 CEST" name="closeBrowsers" finished-at="2022-05-20T22:03:54 CEST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:49:37 CEST" name="initialize" finished-at="2022-05-18T10:49:55 CEST" duration-ms="18846" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:03:54 CEST" name="initialize" finished-at="2022-05-20T22:04:21 CEST" duration-ms="27185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:49:55 CEST" name="login" data-provider="loginData" finished-at="2022-05-18T10:49:57 CEST" duration-ms="1497" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:04:21 CEST" name="login" data-provider="loginData" finished-at="2022-05-20T22:04:23 CEST" duration-ms="1904" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -82,53 +82,53 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.LoginTest@77b21474]" started-at="2022-05-18T10:49:57 CEST" name="closeBrowsers" finished-at="2022-05-18T10:49:57 CEST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.LoginTest@324dcd31]" started-at="2022-05-20T22:04:23 CEST" name="closeBrowsers" finished-at="2022-05-20T22:04:25 CEST" duration-ms="1447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.ValidateTitleTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ValidateTitleTest@52d10fb8]" started-at="2022-05-18T10:48:46 CEST" name="initialize" finished-at="2022-05-18T10:49:35 CEST" duration-ms="48695" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ValidateTitleTest@503d56b5]" started-at="2022-05-20T22:03:06 CEST" name="initialize" finished-at="2022-05-20T22:03:54 CEST" duration-ms="47485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="titleAssert()[pri:0, instance:tests.ValidateTitleTest@52d10fb8]" started-at="2022-05-18T10:49:35 CEST" name="titleAssert" finished-at="2022-05-18T10:49:35 CEST" duration-ms="228" status="PASS">
+        <test-method signature="titleAssert()[pri:0, instance:tests.ValidateTitleTest@503d56b5]" started-at="2022-05-20T22:03:54 CEST" name="titleAssert" finished-at="2022-05-20T22:03:54 CEST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleAssert -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ValidateTitleTest@52d10fb8]" started-at="2022-05-18T10:49:35 CEST" name="closeBrowsers" finished-at="2022-05-18T10:49:35 CEST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ValidateTitleTest@503d56b5]" started-at="2022-05-20T22:03:54 CEST" name="closeBrowsers" finished-at="2022-05-20T22:03:58 CEST" duration-ms="4377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- tests.ValidateTitleTest -->
-      <class name="tests.ValidateNavBarTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ValidateNavBarTest@41c07648]" started-at="2022-05-18T10:48:46 CEST" name="initialize" finished-at="2022-05-18T10:49:35 CEST" duration-ms="48673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="titleAssert()[pri:0, instance:tests.ValidateNavBarTest@41c07648]" started-at="2022-05-18T10:49:35 CEST" name="titleAssert" finished-at="2022-05-18T10:49:35 CEST" duration-ms="258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleAssert -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ValidateNavBarTest@41c07648]" started-at="2022-05-18T10:49:35 CEST" name="closeBrowsers" finished-at="2022-05-18T10:49:35 CEST" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowsers -->
-      </class> <!-- tests.ValidateNavBarTest -->
       <class name="tests.ForgetPasswordTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ForgetPasswordTest@600b0b7]" started-at="2022-05-18T10:48:46 CEST" name="initialize" finished-at="2022-05-18T10:49:26 CEST" duration-ms="39870" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ForgetPasswordTest@402f80f5]" started-at="2022-05-20T22:03:06 CEST" name="initialize" finished-at="2022-05-20T22:04:13 CEST" duration-ms="66758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="resetPass()[pri:0, instance:tests.ForgetPasswordTest@600b0b7]" started-at="2022-05-18T10:49:26 CEST" name="resetPass" finished-at="2022-05-18T10:49:28 CEST" duration-ms="1724" status="PASS">
+        <test-method signature="resetPass()[pri:0, instance:tests.ForgetPasswordTest@402f80f5]" started-at="2022-05-20T22:04:13 CEST" name="resetPass" finished-at="2022-05-20T22:04:15 CEST" duration-ms="1772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPass -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ForgetPasswordTest@600b0b7]" started-at="2022-05-18T10:49:28 CEST" name="closeBrowsers" finished-at="2022-05-18T10:49:28 CEST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ForgetPasswordTest@402f80f5]" started-at="2022-05-20T22:04:15 CEST" name="closeBrowsers" finished-at="2022-05-20T22:04:15 CEST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- tests.ForgetPasswordTest -->
+      <class name="tests.ValidateNavBarTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ValidateNavBarTest@72bca894]" started-at="2022-05-20T22:03:06 CEST" name="initialize" finished-at="2022-05-20T22:03:59 CEST" duration-ms="52302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="titleAssert()[pri:0, instance:tests.ValidateNavBarTest@72bca894]" started-at="2022-05-20T22:03:59 CEST" name="titleAssert" finished-at="2022-05-20T22:03:59 CEST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleAssert -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:tests.ValidateNavBarTest@72bca894]" started-at="2022-05-20T22:03:59 CEST" name="closeBrowsers" finished-at="2022-05-20T22:03:59 CEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- tests.ValidateNavBarTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

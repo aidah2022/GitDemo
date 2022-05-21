@@ -42,6 +42,7 @@ public class ForgetPasswordTest extends Base {
 		logger.info("Forgot password link works");
 		fPass.getEmailField().sendKeys("aida");
 		fPass.sendInstructions().click();
+		System.out.println("Change to ForgetPassword by X");
 		
 	}
 	
