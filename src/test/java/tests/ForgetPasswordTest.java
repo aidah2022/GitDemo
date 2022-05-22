@@ -56,4 +56,9 @@ public class ForgetPasswordTest extends Base {
 		System.out.println("Added by Architect X");
 	}
 	
+	@Test
+	public void blankFWTest5() {
+		System.out.println("Added by Architect Y");
+	}
+	
 }

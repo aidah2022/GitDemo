@@ -40,4 +40,9 @@ public class ValidateTitleTest extends Base {
 		logger.info("Header text matches");
 	}
 	
+	@Test
+	public void blankFWTest6() {
+		System.out.println("Added by Architect Y");
+	}
+	
 }
