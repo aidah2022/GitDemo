@@ -42,4 +42,14 @@ public class ValidateNavBarTest extends Base {
 		System.out.println("Change to NavBar by X");
 	}
 	
+	@Test
+	public void blankFWTest3() {
+		System.out.println("Added by Architect X");
+	}
+	
+	@Test
+	public void blankFWTest4() {
+		System.out.println("Added by Architect X");
+	}
+	
 }
